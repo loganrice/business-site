@@ -45,3 +45,36 @@ header > a, header li a{
 #active {
 	background-color: #BED3AB;
 }
+
+/*************Banner****************/
+#banner {
+	clear: both;
+	display: block;
+	height: 300px;
+	width: 100%;
+	background-image: url("../img/banner.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center right;
+}
+
+.button {
+	display: inline-block;
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 12px;
+	margin-top: 245px;
+	margin-left: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.button:hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+
+
